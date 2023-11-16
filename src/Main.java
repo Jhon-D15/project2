@@ -5,17 +5,19 @@ public class ejercicio2 {
 
         Scanner lector = new Scanner(System.in);
 
-        double numero1;
-        double numero2;
+        double num1;
+        double num2;
         double resultado;
 
+        System.out.println("///////////////////");
+       
         System.out.println("ingrese un numero");
-        numero1= lector.nextDouble();
+        num1= lector.nextDouble();
 
         System.out.println("ingrese otro numero");
-        numero2= lector.nextDouble();
+        num2= lector.nextDouble();
 
-        resultado = (numero1 + numero2);
+        resultado = (num1 + num2);
 
         System.out.println("la suma de los dos numero es:"+" "+resultado);
 
